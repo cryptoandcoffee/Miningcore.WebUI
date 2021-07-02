@@ -1,3 +1,10 @@
+# Run with Docker
+```
+git clone https://github.com/cryptoandcoffee/Miningcore.WebUI miningcore-ui ; cd miningcore-ui 
+docker build -t miningcore-ui . ; docker run -it -p 8091:80 miningcore-ui
+```
+Change 8091 to the port you would like to expose.
+
 # Miningcore.WebUI
 <h4>Miningcore WebUI for the Coinfoundry Miningcore Pool</h4>
 
